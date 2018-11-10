@@ -8,7 +8,7 @@ function destructivelyAddElementToBeginningOfArray(arr, elem){
   arr.unshift(elem);
   return arr;
 }
-function addElementToEndOfArraya(arr, elem){
+function addElementToEndOfArray(arr, elem){
   let newArr = arr.slice();
   newArr.push(elem);
   return newArr;
